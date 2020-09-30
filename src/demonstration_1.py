@@ -21,4 +21,8 @@ of the duplicates.*
 """
 def remove_duplicates(nums):
     # Your code here
+    print(nums)
+    print(set(nums))
 
+nums = [0, 1, 1, 2, 2, 2, 3, 4, 4, 5]
+remove_duplicates(nums)
